@@ -48,7 +48,7 @@ div {
 }
 
 .about-image {
-    flex: 0 0 150px; /* Adjust width as needed */
+    flex: 0 0 150px; 
     margin-right: 20px;
 }
 
@@ -62,7 +62,7 @@ div {
 }
 
 .about ul {
-    list-style-type: none; /* Removes bullets */
+    list-style-type: none; 
     padding-left: 0;
 }
 
@@ -156,4 +156,17 @@ footer {
     padding: 5px 0;
     background-color: #333;
     color: white;
+}
+
+#page-up-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+#page-up-button img {
+    width: 30px;
+    height: 30px;
 }
