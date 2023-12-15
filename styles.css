@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-.container {
+.wrapper {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -69,15 +69,6 @@ body {
     background-color: #f7f7f7;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
 nav ul {
@@ -188,3 +179,71 @@ strong {
     width: 30px;
     height: 30px;
 }
+
+.about {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.about-image {
+    flex: 0 0 150px; 
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 350px;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.about ul li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.interests {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.interest-item img, .interest-item video {
+    width: 100%; 
+    height: auto;
+    max-width: 300px; 
+    margin-bottom: 10px;
+}
+
+section.interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.interest-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+
